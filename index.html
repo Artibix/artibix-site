@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artibix — Zéro paperasse. 100% chantier.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #0B0F19; color: #F3F4F6; font-family: 'Inter', sans-serif; }
+        .gradient-text { background: linear-gradient(135deg, #F3F4F6 0%, #9CA3AF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .accent-gradient { background: linear-gradient(135deg, #D97706 0%, #B45309 100%); }
+        .card-bg { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+    </style>
+</head>
+<body class="antialiased text-gray-300">
+
+    <!-- Header / Nav -->
+    <header class="border-b border-gray-800 bg-gray-950/50 sticky top-0 z-50 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <!-- Icône géométrique inspirée de ton logo -->
+                <div class="w-10 h-10 rounded-xl accent-gradient flex items-center justify-center font-bold text-xl text-white shadow-lg shadow-amber-900/40">A</div>
+                <span class="text-2xl font-bold tracking-wider text-white">ARTI<span class="text-amber-500">BIX</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#solutions" class="hover:text-amber-500 transition">Notre Solution</a>
+                <a href="#pricing" class="hover:text-amber-500 transition">Tarifs</a>
+                <a href="#avantage" class="hover:text-amber-500 transition">L'Avantage Régional</a>
+            </nav>
+            <div>
+                <a href="mailto:contact@artibix.fr" class="accent-gradient text-white px-5 py-2.5 rounded-xl font-medium text-sm hover:opacity-90 transition shadow-lg shadow-amber-900/20">Nous contacter</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-24 pb-20 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-amber-500/10 text-amber-500 border border-amber-500/20 mb-6">
+                <i class="fa-solid block fa-location-dot"></i> Propulsé en Pays de la Loire
+            </span>
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
+                <span class="gradient-text">Zéro paperasse.</span><br>
+                <span class="text-amber-500">100% chantier.</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-10 leading-relaxed">
+                Vous gérez vos chantiers, nous gérons le reste. Devis instantanés, relances intelligentes et conformité légale française. Conçu exclusivement pour les artisans solos.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#pricing" class="accent-gradient text-white px-8 py-4 rounded-xl font-semibold text-base hover:opacity-90 transition shadow-xl shadow-amber-900/30">Découvrir nos offres</a>
+                <a href="#solutions" class="bg-gray-900 text-gray-300 border border-gray-800 px-8 py-4 rounded-xl font-semibold text-base hover:bg-gray-800 transition">Voir comment ça marche</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions / Ce qui nous différencie -->
+    <section id="solutions" class="py-20 border-t border-gray-900 bg-gray-950/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Bien plus qu'un simple logiciel de facturation</h2>
+                <p class="text-gray-400">Ce n'est pas à vous de vous adapter à un outil complexe. Nous configurons tout pour vous et automatisons vos processus métiers de A à Z.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-bg p-8 rounded-2xl">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-500 mb-6 text-xl"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Devis Instantanés & Propres</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Saisissez vos données via notre interface ultra-simplifiée sur PC ou mobile. Vos clients reçoivent un PDF impeccable, conforme aux normes FR.</p>
+                </div>
+                <div class="card-bg p-8 rounded-2xl">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-500 mb-6 text-xl"><i class="fa-solid fa-bell"></i></div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Relances Automatiques IA</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Fini les impayés. Notre système analyse le profil de risque et relance vos clients par email et SMS au bon moment, de manière courtoise mais ferme.</p>
+                </div>
+                <div class="card-bg p-8 rounded-2xl">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-500 mb-6 text-xl"><i class="fa-solid fa-gavel"></i></div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Conformité Légale Totale</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Pénalités de retard selon l'article L.441-10, mentions obligatoires de TVA, mise en demeure automatique... Vous êtes protégé à 100% juridiquement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Grids -->
+    <section id="pricing" class="py-20 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Des tarifs transparents, rentabilisés au premier chantier</h2>
+                <p class="text-gray-400">Un service clé en main, sans frais cachés. Choisissez la sérénité.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+                <!-- Plan 1 -->
+                <div class="card-bg p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-400 mb-2">Starter</h3>
+                        <div class="text-4xl font-extrabold text-white mb-6">97€ <span class="text-sm font-normal text-gray-500">/ mois</span></div>
+                        <ul class="space-y-4 text-sm text-gray-400 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Génération automatique de devis</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Relances factures par email</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Support par email standard</li>
+                        </ul>
+                    </div>
+                    <a href="mailto:contact@artibix.fr?subject=Option Starter Artibix" class="block text-center bg-gray-900 hover:bg-gray-800 text-white font-medium py-3 rounded-xl text-sm transition">Choisir Starter</a>
+                </div>
+                <!-- Plan 2 (Best) -->
+                <div class="card-bg p-8 rounded-2xl border-2 border-amber-500 relative flex flex-col justify-between transform md:-translate-y-2 shadow-2xl shadow-amber-500/5">
+                    <span class="absolute -top-3 left-1/2 -translate-x-1/2 accent-gradient text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Le plus populaire</span>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-400 mb-2">Pro</h3>
+                        <div class="text-4xl font-extrabold text-white mb-6">197€ <span class="text-sm font-normal text-gray-500">/ mois</span></div>
+                        <ul class="space-y-4 text-sm text-gray-400 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Tout le plan Starter</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Relances par SMS automatisées</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Suivi des Avis Google après chantier</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Rapport de performance mensuel</li>
+                        </ul>
+                    </div>
+                    <a href="mailto:contact@artibix.fr?subject=Option Pro Artibix" class="block text-center accent-gradient hover:opacity-90 text-white font-medium py-3 rounded-xl text-sm transition shadow-lg shadow-amber-900/30">Choisir Pro</a>
+                </div>
+                <!-- Plan 3 -->
+                <div class="card-bg p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-400 mb-2">Premium</h3>
+                        <div class="text-4xl font-extrabold text-white mb-6">297€ <span class="text-sm font-normal text-gray-500">/ mois</span></div>
+                        <ul class="space-y-4 text-sm text-gray-400 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Tout le plan Pro</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Accompagnement setup sur-mesure</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Support prioritaire direct WhatsApp</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Gestion des mises en demeure PDF</li>
+                        </ul>
+                    </div>
+                    <a href="mailto:contact@artibix.fr?subject=Option Premium Artibix" class="block text-center bg-gray-900 hover:bg-gray-800 text-white font-medium py-3 rounded-xl text-sm transition">Choisir Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-900 py-8 bg-gray-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+            <div>&copy; 2026 Artibix. Tous droits réservés.</div>
+            <div class="flex space-x-6">
+                <a href="mailto:contact@artibix.fr" class="hover:text-gray-400">contact@artibix.fr</a>
+                <span>Nantes & Région Pays de la Loire</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
